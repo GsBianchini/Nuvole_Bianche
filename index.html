@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <title>Nuvole Bianche</title>
+  <meta name="title" content="Nuvole Bianche">
+  <meta name="description" content="Fazendo você se sentir nas nuvens com nossa confeitaria">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Rosario:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">Nuvole Bianche</a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Início</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Sobre Nós</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Contato</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">
+              Panificação & Confeitaria Artesanal
+              <span class="span">Da melhor qualidade</span>
+            </h1>
+
+            <p class="section-text">
+              Delícias que Elevam Você às Nuvens!
+            </p>
+
+            <a href="#" class="btn">
+              <span class="span">Cardápio</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <div class="wrapper">
+            <div class="hero-banner-1 img-holder" style="--width: 400; --height: 550;">
+              <img src="./assets/images/hero-banner-1.jpg" width="400" height="550"
+                alt="view of assortment of decor for interior shop" class="img-cover">
+            </div>
+
+            <div class="hero-banner-2 img-holder" style="--width: 500; --height: 850;">
+              <img src="./assets/images/hero-banner-2.jpg" width="500" height="850" alt="ceramic craft ware"
+                class="img-cover">
+            </div>
+
+            <img src="./assets/images/hero-shape.png" width="570" height="676" alt="laves" class="shape">
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+            <figure class="about-banner about-banner-1 img-holder" style="--width: 600; --height: 480;">
+              <img src="./assets/images/about-1.jpg" width="600" height="480" loading="lazy" alt="craftman in workshop"
+                class="img-cover">
+            </figure>
+
+            <h2 class="h2 section-title">Sabores do mundo todo!</h2>
+          </div>
+
+          <figure class="about-banner about-banner-2 img-holder" style="--width: 500; --height: 700;">
+            <img src="./assets/images/about-2.jpg" width="500" height="700" loading="lazy"
+              alt="interior view of a leather shop selling belts brac" class="img-cover">
+          </figure>
+
+          <div class="about-content">
+
+            <h3 class="h2 section-title">Tradição e Sabor: Descubra a Elegância na Nossa Confeitaria Clássica!</h3>
+
+            <p class="section-text">
+              
+            </p>
+
+            <a href="#" class="btn">
+              <span class="span">Leia Mais</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+            <figure class="about-banner about-banner-3 img-holder" style="--width: 850; --height: 420;">
+              <img src="./assets/images/about-3.jpg" width="850" height="420" loading="lazy"
+                alt="concentrated artisans in workshop" class="img-cover">
+            </figure>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #COLLECTION
+      -->
+
+      <section class="section collection text-center" aria-labelledby="collection-label">
+        <div class="container">
+
+          <h2 class="h2 section-title" id="collection-label">
+            Conheça nosso trabalho!
+          </h2>
+
+          <p class="section-text">
+            Explorando o Mundo Doce da Nuvem Branca
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="collection-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 550;">
+                  <img src="./assets/images/collection-1.jpg" width="500" height="550" loading="lazy"
+                    alt="Confeitaria" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Confeitaria</h3>
+
+                  <p class="card-text">
+                    Sinta-se nas Nuvens com as Delícias da Nossa Confeitaria!
+                  </p>
+
+                  <a href="#" class="btn">
+                    <span class="span">Produtos</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 550;">
+                  <img src="./assets/images/collection-2.jpg" width="500" height="550" loading="lazy"
+                    alt="Panificação" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Panificação</h3>
+
+                  <p class="card-text">
+                    Amor que Cresce: Nossa Arte na Panificação!
+                  </p>
+
+                  <a href="#" class="btn">
+                    <span class="span">Produtos</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 550;">
+                  <img src="./assets/images/collection-3.jpg" width="500" height="550" loading="lazy"
+                    alt="Bebidas Quentes" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Bebidas Quentes</h3>
+
+                  <p class="card-text">
+                    Uma xícara de Conforto: Explore Nossas Bebidas Quentes
+                  </p>
+
+                  <a href="#" class="btn">
+                    <span class="span">View Gallery</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="feature" aria-label="features">
+
+        <div class="feature-banner has-bg-image has-after"
+          style="background-image: url('./assets/images/feature-banner.jpg')">
+          <button class="play-btn" aria-label="play video: man making handmade belt">
+            <img src="./assets/images/play.svg" width="60" height="60" loading="lazy" alt="play icon">
+          </button>
+        </div>
+
+        <div class="section feature-content">
+          <div class="container">
+
+            <h2 class="h2 section-title">
+              Apaixonados pela arte da cozinha
+            </h2>
+
+            <p class="section-text">
+              Doçura com Profissionalismo: Nossa Equipe, Sua Satisfação.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-list-card">
+
+                  <div class="card-icon">
+                    <img src="./assets/images/feature-icon-1.svg" width="45" height="45" loading="lazy"
+                      alt="review icon">
+                  </div>
+
+                  <div>
+                    <h3 class="h4 card-title">100% de aprovação!</h3>
+
+                    <p class="card-text">
+                      Nós garantimos uma experiência que te levará às alturas.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-list-card">
+
+                  <div class="card-icon">
+                    <img src="./assets/images/feature-icon-2.svg" width="45" height="45" loading="lazy"
+                      alt="badge icon">
+                  </div>
+
+                  <div>
+                    <h3 class="h4 card-title">Professionais Treinados</h3>
+
+                    <p class="card-text">
+                      Possuimos os melhores profissionais do mercado.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-list-card">
+
+                  <div class="card-icon">
+                    <img src="./assets/images/feature-icon-3.svg" width="45" height="45" loading="lazy"
+                      alt="money bag icon">
+                  </div>
+
+                  <div>
+                    <h3 class="h4 card-title">Preço Acessível</h3>
+
+                    <p class="card-text">
+                      Excelência a baixo custo.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <p>
+              Nós buscamos excelência no mercado, porém com acessibilidade a todos os bolsos.
+            </p>
+
+          </div>
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi" aria-label="testimonials">
+        <div class="container">
+
+          <div class="testi-card">
+
+            <p class="card-text">
+              Na simplicidade de um doce, encontramos a doçura da vida, onde a confeitaria se torna a alquimia que transforma momentos em memórias e sabores em histórias, provando que até mesmo as coisas mais simples podem mudar vidas
+            </p>
+
+            <p class="client-name">Gustavo E. Bianchini</p>
+
+            <p class="client-title">Fundador da Nuvole Bianche</p>
+
+            <img src="./assets/images/quote.svg" width="50" height="50" loading="lazy" class="icon" alt="quote">
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="gallery">
+
+        <ul class="gallery-list">
+
+          <li>
+            <div class="gallery-card has-bg-image has-after"
+              style="background-image: url('./assets/images/gallery-1.jpg')">
+              <div class="card-content">
+
+                <h3 class="h3 card-title">Descubra nossas lojas mais próximas de você</h3>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Visitar Mapas</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="gallery-card has-bg-image has-after"
+              style="background-image: url('./assets/images/gallery-2.jpg')">
+              <div class="card-content">
+
+                <h3 class="h3 card-title">Lojinha Online</h3>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Ver Produtos</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="gallery-card has-bg-image has-after"
+              style="background-image: url('./assets/images/gallery-3.jpg')">
+              <div class="card-content">
+
+                <h3 class="h3 card-title">Conheça nossas cozinhas</h3>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Ver Galeria</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="gallery-card has-bg-image has-after"
+              style="background-image: url('./assets/images/gallery-4.jpg')">
+              <div class="card-content">
+
+                <h3 class="h3 card-title">Trabalhe Conosco</h3>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Entre em contato</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" aria-labelledby="blog-label">
+        <div class="container">
+
+          <h2 class="h2 section-title text-center" id="blog-label">Blog & Novidades</h2>
+
+          <p class="section-text text-center">
+            Dicas Deliciosas e Novidades Açucaradas: Explore o Mundo da Confeitaria na Nossa Loja!
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1024; --height: 683;">
+                  <img src="./assets/images/blog-1.jpg" width="1024" height="683" loading="lazy"
+                    alt="Novos Sabores" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title">
+                      Venha conhecer nossos novos sabores
+                    </a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <a href="#" class="card-meta-wrapper">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">admin</span>
+                    </a>
+
+                    <time class="card-meta-wrapper" datetime="2023-10-10">
+                      <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Outubro 10, 2023</span>
+                    </time>
+
+                    <a href="#" class="card-meta-wrapper">
+                      <ion-icon name="folder-open-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Dicas</span>
+                    </a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1024; --height: 683;">
+                  <img src="./assets/images/blog-2.jpg" width="1024" height="683" loading="lazy"
+                    alt="A importância de usar ingredientes da temporada" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title">
+                      A importância de usar ingredientes sasonais
+                    </a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <a href="#" class="card-meta-wrapper">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">admin</span>
+                    </a>
+
+                    <time class="card-meta-wrapper" datetime="2022-10-12">
+                      <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Outubro 10, 2023</span>
+                    </time>
+
+                    <a href="#" class="card-meta-wrapper">
+                      <ion-icon name="folder-open-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Dicas</span>
+                    </a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1024; --height: 683;">
+                  <img src="./assets/images/blog-3.jpg" width="1024" height="683" loading="lazy"
+                    alt="Melhores técnicas panificação" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title">
+                      5 dicas para aprimorar suas técnicas de panificação
+                    </a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <a href="#" class="card-meta-wrapper">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">admin</span>
+                    </a>
+
+                    <time class="card-meta-wrapper" datetime="2022-10-12">
+                      <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Outubro 10, 2023</span>
+                    </time>
+
+                    <a href="#" class="card-meta-wrapper">
+                      <ion-icon name="folder-open-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Dicas</span>
+                    </a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1024; --height: 683;">
+                  <img src="./assets/images/blog-4.jpg" width="1024" height="683" loading="lazy"
+                    alt="Sabores para o Verão" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title">
+                      Veja quais são os melhores sabores para o verão
+                    </a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <a href="#" class="card-meta-wrapper">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">admin</span>
+                    </a>
+
+                    <time class="card-meta-wrapper" datetime="2022-10-12">
+                      <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Outubro 10, 2023</span>
+                    </time>
+
+                    <a href="#" class="card-meta-wrapper">
+                      <ion-icon name="folder-open-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Dicas</span>
+                    </a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn">
+            <span class="span">Leia Mais</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="section footer-top">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Nuvole Bianche</a>
+
+          <p class="footer-text">
+            "Nuvole Bianche" é uma confeitaria renomada que se dedica a criar experiências de sabor excepcionais. Com uma equipe apaixonada e ingredientes da mais alta qualidade, buscamos elevar a confeitaria a um nível superior, sempre visando encantar os paladares e criar momentos memoráveis para nossos clientes.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Explore</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Sobre Nós</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Nossos Sabores</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Produtos</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Novidades</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Suporte</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Conta</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Feedback</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Centro de Suporte</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Nossas Lojas</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Entre em Contato</p>
+
+          <p class="footer-text">
+            Dúvidas ou Feedback?
+            Adorariamos ouvir mais!
+          </p>
+
+          <a href="#" class="btn">
+            <span class="span">Entre em Contato</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          Copyright 2023 Gustavo Bianchini. Todos os direitos reservados
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - Link JS
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
